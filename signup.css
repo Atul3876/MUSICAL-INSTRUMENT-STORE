@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('assets/img/hero-bg.jpg');/* Add background image */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 2px solid #ccc; /* Add border around the form */
+  }
+  
+  
+  .container h1 {
+    margin-top: 0;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .form-group input[type="email"],
+  .form-group input[type="text"],
+  .form-group input[type="tel"],
+  .form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    color: black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: transparent;
+  }
+  
+  .form-group input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: transparent;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .form-group input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .form-group input[type="email"]:focus,
+  .form-group input[type="text"]:focus,
+  .form-group input[type="tel"]:focus,
+  .form-group input[type="password"]:focus {
+    outline: none;
+    box-shadow: 0 0 2px 1px #4CAF50;
+  }
+  
+  .form-group::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+  .form-group label::before {
+    content: "*";
+    color: red;
+    margin-right: 5px;
+  }
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+}

@@ -1,0 +1,41 @@
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  z-index: 999;
+}
+
+.form-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.form-container h2 {
+  margin-top: 0;
+}
+
+.form-container table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form-container .btn {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.qr-code {
+  width: 200px;
+  height: 200px;
+}
